@@ -1,0 +1,42 @@
+.dark-mode{
+    background-color: #1b1b1e;
+}
+
+.dark-mode h1{
+    color: #fff;
+}
+.dark-mode h3{
+    color: #cccccc;
+}
+.dark-mode p{
+    color: #cccccc;
+}
+
+.dark-mode .sidebar{
+    background-color: #212225;
+}
+.dark-mode .navcard img{
+    filter: invert(100%) sepia(13%) saturate(2%) hue-rotate(130deg) brightness(95%) contrast(80%);
+}
+.dark-mode .navcard:hover{
+    background-color: #27282a;
+}
+
+.dark-mode .bottom-buttons button{
+    background-color: #212225;
+}
+.dark-mode .bottom-buttons button:hover img{
+    filter: invert(100%) sepia(13%) saturate(2%) hue-rotate(130deg) brightness(95%) contrast(80%);
+}
+
+.dark-mode .details img{
+    filter: invert(100%) sepia(13%) saturate(2%) hue-rotate(130deg) brightness(95%) contrast(80%);
+}
+
+.dark-mode .card{
+    border: 1px solid #252425;
+    box-shadow: 0.5px 0.5px 1px rgba(148, 148, 148, 0.3);
+}
+.dark-mode .card:hover{
+    background-color: #2a2c2d;
+}

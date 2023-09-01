@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luigi Terashima | Home</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../darkstyles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="profile">
+                <img src="../images/LT.jpeg" alt="My Portrait">
+                <h1>Luigi Terashima</h1>
+                <p class="subtxt">Computer Science Student</p>
+            </div>
+
+            <nav>
+                <a href="../index.html">
+                    <div class="navcard">
+                        <img src="../images/home.png" alt="Home Icon">
+                        <p>HOME</p>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="navcard">
+                        <img src="../images/coding.png" alt="Home Icon">
+                        <p>PROJECTS</p>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="navcard">
+                        <img src="../images/timeline.png" alt="Home Icon">
+                        <p>TIMELINE</p>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="navcard">
+                        <img src="../images/information-button.png" alt="Home Icon">
+                        <p>ABOUT</p>
+                    </div>
+                </a>
+            </nav>
+
+            <div class="bottom-buttons">
+                <div>
+                    <button class="darkmode"><img src="../images/theme.png" alt="Dark Mode Icon" class="bottombuttonicons"></button>
+                </div>
+
+                <div class="vertical-seperator"></div>
+
+                <a href="https://github.com/LuigiDotSRC">
+                    <button class="github"><img src="../images/github.png" alt="GitHub Icon" class="bottombuttonicons"></button>
+                </a>
+
+                <a href="https://www.linkedin.com/in/luigi-terashima/">
+                    <button class="linkedin"><img src="../images/linkedin.png" alt="LinkedIn Icon" class="bottombuttonicons"></button>
+                </a>
+
+                <div>
+                    <button class="email" onclick="openEmailPrompt()"><img src="../images/email.png" alt="Email Icon" class="bottombuttonicons"></button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main-content">
+            <div class="topbar">
+                <p>Home > Projects > Snake Game</p>
+            </div>
+    
+            <div class="content">
+                WIP
+            </div>
+    
+            <div class="bottombar"><p class="footertxt">Luigi Terashima 2023 - HTML CSS JS </p></div>
+        </div>
+
+    </div>
+
+    <script src="../app.js"></script>
+    <script>
+        function openEmailPrompt() {
+            var recipientEmail = "luigi.terashima@gmail.com"; // Replace with the recipient's email address
+            var subject = "Subject goes here"; // Optional: Set the email subject
+
+            var mailtoLink = "mailto:" + recipientEmail + "?subject=" + encodeURIComponent(subject);
+
+            // Open the default email client
+            window.location.href = mailtoLink;
+        }
+    </script>
+</body>
+</html>
