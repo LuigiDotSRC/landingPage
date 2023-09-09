@@ -12,7 +12,14 @@ html, body {
 a{
     text-decoration: none;
 }
-
+h3{
+    color: #000;
+    font-weight: normal;
+}
+h2{
+    color: #000;
+    font-weight: normal;
+}
 .container {
     display: flex;
     min-height: 100%;
@@ -37,6 +44,18 @@ a{
 .subtxt{
     font-size: 20px;
     font-style: italic;
+}
+.subtxt2{
+    font-size: 11px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+.subtxt2 span{
+    color : #000;
+}
+.bottomContentSection a{
+    text-decoration: underline;
+    color: #6a74de;
 }
 
 nav{
@@ -116,7 +135,6 @@ nav{
 
 .topbar p{
     font-size: 17px;
-    font-weight: bold;
 }
 
 .content{
@@ -159,5 +177,14 @@ nav{
     margin-right: 50px;
     margin-left: 30px;
     border-top: 1px solid #e2e2e2;
+}
+
+.topContentSection{
+    margin-bottom: 30px;
+}
+
+.mainImage{
+    max-height: 50%;
+    max-width: 50%;
 }
 

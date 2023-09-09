@@ -6,10 +6,16 @@
     color: #fff;
 }
 .dark-mode h3{
-    color: #cccccc;
+    color: #ffffff;
+}
+.dark-mode h2{
+    color: #ffffff;
 }
 .dark-mode p{
     color: #cccccc;
+}
+.dark-mode .subtxt2 span{
+    color: #fff;
 }
 
 .dark-mode .sidebar{
